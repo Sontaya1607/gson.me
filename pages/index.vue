@@ -2,16 +2,15 @@
 </script>
 
 <template>
-  <div
-    class="h-[100dvh] flex justify-center items-center"
-    bg="white dark:dark"
-    text="dark dark:white center"
-  >
+  <div>
     <span
-      class="animate-bounce"
-      text="5xl"
+      class="
+        h-[calc(100vh_-_64px)]
+        flex justify-center items-center
+        text-2xl sm:text-6xl
+    "
     >
-      Hello there, <strong text="primary">I'm gson 👋</strong>
+      Hello there, <span class="text-primary font-semibold">I'm GSON 👋</span>
     </span>
   </div>
 </template>
